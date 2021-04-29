@@ -1,0 +1,71 @@
+*
+{
+	font-family: 'Montserrat', sans-serif;
+}
+
+header
+{
+	background-color:navy;
+}
+#one
+{
+	text-align: center;
+	padding: 10px;
+	background-color: lightblue;
+}
+#dean
+{
+	 display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+     border-radius: 50%
+
+}
+
+#firstpage
+{
+	background-color: blue;
+	text-align: center; 
+}
+#aboutpage
+{
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+.aboutpageheading
+{
+	background-color: blue;
+}
+.photo
+{
+	color: white;
+	background-color: navy;
+	text-align: center;
+	text-decoration: underline;
+}
+.gallary
+{
+	margin: 10px 50px;
+}
+.gallary img
+{
+	width: 230px;
+	padding: 5px;
+	filter: grayscale(100%);
+	transition: 1s;
+}
+
+.gallary img:hover
+{
+	filter: grayscale(0);
+	transform: scale(1.1);
+}
+footer
+{
+	color: white;
+	background-color:navy;
+	text-align: center;
+
+}
